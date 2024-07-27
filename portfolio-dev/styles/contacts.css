@@ -1,0 +1,91 @@
+#contacts {
+
+  margin: auto;
+  width: 1366px;
+    
+  background-repeat: no-repeat;
+  background-image: url(../assets/images/Bg-Contacts.png);
+  background-size: cover;
+
+}
+
+.links{
+
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 8px;
+
+span {
+  font: var(--subtitle);
+  color: var(--purple);
+
+  margin-top: 120px;
+}
+
+h2 {
+
+color: var(--gray-600);
+font: var(--title-md);
+}
+
+p {
+  font: var(--text-md);
+  color: var(--gray-500);
+  margin-bottom: 48px;
+}
+
+}
+
+#contacts {
+
+ul {
+
+ 
+  
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin: 0 auto 200px;
+  gap: 16px;
+}
+
+li {
+  background-color: var(--gray-300);
+  display: flex;
+  padding: 20px;
+  
+
+  border-radius: 8px;
+
+  
+}
+
+a  {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  color: var(--gray-600);
+
+  
+ 
+  gap: 12px;
+}
+
+a span {
+  
+
+  font: var(--text-md);
+  color: var(--gray-500);
+  width: 288px;
+
+}
+
+nav li:hover{
+
+  background-color: #1e2027;
+}
+
+}
+
+
